@@ -9,7 +9,7 @@ import Footer from "@/components/landing/Footer";
 
 export default function Home() {
   return (
-    <div>
+    <div className="absolute inset-0 -z-10 bg-gradient-to-b from-slate-400 to-white">
       <Navbar></Navbar>
       <Hero></Hero>
       <Framework></Framework>
