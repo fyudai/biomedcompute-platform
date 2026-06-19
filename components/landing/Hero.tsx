@@ -3,7 +3,7 @@ import { CTAButtons } from "@/features/landing/data";
 
 export default function Hero() {
     return (
-        <section className="min-h-[80vh] flex items-center pt-20">
+        <section className="min-h-[80vh] flex items-center pt-30">
             <Container>
                 {/* Main text */}
                 <div className="text-center">
@@ -38,10 +38,10 @@ export default function Hero() {
                                     h-full
                                 "
                             >
-                                <h3 className="text-xl font-semibold">
+                                <h3 className="text-lg font-semibold">
                                     {cta.title}
                                 </h3>
-                                <p className="mt-3 text-lg text-slate-600">
+                                <p className="mt-3 text-sm text-slate-600">
                                     {cta.description}
                                 </p>
                             </button>
