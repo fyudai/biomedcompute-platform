@@ -1,5 +1,6 @@
 import Container from "@/components/ui/Container";
 import { CTAButtons } from "@/features/landing/data";
+import { ROUTES } from "@/features/navigation/route";
 
 export default function Hero() {
     return (
@@ -24,7 +25,8 @@ export default function Hero() {
                 <div className="grid grid-cols-1 gap-4 py-12 sm:grid-cols-2 lg:grid-cols-4">
                     {CTAButtons.map((cta) => (
                         <div key={cta.id} className="p-1">
-                            <button key={cta.id}
+                            <button
+                                key={cta.id}
                                 className="
                                     w-full
                                     rounded-2xl
