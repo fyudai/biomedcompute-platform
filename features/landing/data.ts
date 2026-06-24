@@ -1,3 +1,5 @@
+import { CTA_ROUTES } from "@/features/navigation/route";
+
 // Navigation Links in the header
 export const navigationLinks = [
     {
@@ -43,22 +45,26 @@ export const CTAButtons = [
     {
         id: "cta-math",
         title: "Math Foundation Class",
-        description: "Lean the mathematical knowledge for modern scientific computing."
+        description: "Lean the mathematical knowledge for modern scientific computing.",
+        href: CTA_ROUTES.mathClass
     },
     {
         id: "cta-code",
         title: "Computational Methods & Implementation Lab",
-        description: "Transforme mathematical theory into practical computational tools"
+        description: "Transforme mathematical theory into practical computational tools",
+        href: CTA_ROUTES.codingLabs
     },
     {
         id: "cta-research",
         title: "Research Applications & Case Studies",
-        description: "Connect computational knowledge to real-world biomedical research."
+        description: "Connect computational knowledge to real-world biomedical research.",
+        href: CTA_ROUTES.researchApplications
     },
     {
         id: "cta-journal",
         title: "Frontier Research Journal Club",
-        description: "A collaborative community for cutting-edge scientific developments."
+        description: "A collaborative community for cutting-edge scientific developments.",
+        href: CTA_ROUTES.journalClub
     }
 ]
 
