@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import Container from "@/components/ui/Container";
 import { navigationLinks } from "@/features/landing/data";
 
@@ -8,8 +10,10 @@ export default function Navbar() {
                 <nav className="flex items-center justify-between py-5">
 
                     {/* Logo */}
-                    <div className="font-semibold text-lg">
-                        BioMedCompute Lab
+                    <div className="font-semibold text-lg transition hover:text-sky-700">
+                        <Link href="/">
+                            BioMedCompute Lab
+                        </Link>
                     </div>
 
                     {/* Navigation */}

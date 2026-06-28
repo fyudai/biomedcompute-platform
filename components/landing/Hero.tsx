@@ -26,9 +26,6 @@ export default function Hero() {
                 <div className="grid grid-cols-1 gap-4 py-12 sm:grid-cols-2 lg:grid-cols-4">
                     {CTAButtons.map((cta) => (
                         <Link key={cta.id} href={cta.href} className="p-1">
-                            <div className="mt-6 text-sm font-medium">
-                                Explore →
-                            </div>
                             <div className="
                                     w-full
                                     rounded-2xl
@@ -47,6 +44,9 @@ export default function Hero() {
                                 <p className="mt-3 text-sm text-slate-600">
                                     {cta.description}
                                 </p>
+                                <div className="mt-6 text-sm font-medium">
+                                    Explore →
+                                </div>
                             </div>
                         </Link>
                     ))}
