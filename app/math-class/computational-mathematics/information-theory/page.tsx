@@ -4,6 +4,8 @@ import Container from "@/components/ui/Container"
 import Sidebar from "@/components/math/Sidebar"
 import AboutCard from "@/components/math/unit/AboutCard";
 import ChapterCard from "@/components/math/unit/ChapterCard";
+import SupportingMaterialCard from "@/components/math/unit/SupportCard";
+import NextLearningCard from "@/components/math/unit/NextLearningCard";
 
 import { computationalMethodsData } from "@/features/math-content/computational-methods/data";
 import { informationTheoryData } from "@/features/math-content/computational-methods/information-theory/data";
@@ -48,7 +50,13 @@ export default function Page() {
 
                             ))}
 
+                            <SupportingMaterialCard />
+
+
+                            <NextLearningCard />
+
                         </div>
+
                     </div>
 
                 </Container>
